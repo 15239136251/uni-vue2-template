@@ -18,7 +18,24 @@ const config = {
     require('autoprefixer')({
       remove: process.env.UNI_PLATFORM !== 'h5'
     }),
-    require('@dcloudio/vue-cli-plugin-uni/packages/postcss')
+    require('@dcloudio/vue-cli-plugin-uni/packages/postcss'),
+    require('tailwindcss')({}),
+    require('postcss-class-rename')({
+      "\\\\:": "--",
+      "\\\\/": "--",
+      "\\\\.": "--",
+      ".:": "--",
+      "\\\*": "--",
+    })
+    // ...(process.env.UNI_PLATFORM !== 'h5' ? [require('postcss-class-rename')({
+    //   "\\\\:": "--",
+    //   "\\\\/": "--",
+    //   "\\\\.": "--",
+    //   ".:": "--",
+    //   "\\\*": "--",
+    // })] : [require('autoprefixer')({
+    //   remove: true
+    // }),])
   ]
 }
 if (webpack.version[0] > 4) {
