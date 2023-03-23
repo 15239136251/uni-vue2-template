@@ -2,13 +2,13 @@
 
 Uniapp + vue2 + vuex + uniui + tailwinCSS
 
-[uniapp - 官方模板](https://github.com/dcloudio/uni-preset-vue)
-[uniapp - 模板文档](https://uniapp.dcloud.net.cn/quickstart-cli.html)
-[uni-ui](https://uniapp.dcloud.net.cn/component/uniui/uni-ui.html)
-[Vue2](https://v2.cn.vuejs.org/v2/guide/)
-[Vuex](https://v3.vuex.vuejs.org/zh/)
-[Tailwindcss](https://www.tailwindcss.cn/docs)
-[Tailwindcss支持小程序](https://blog.csdn.net/TIAN20121221/article/details/117301282?spm=1001.2014.3001.5502)
+[uniapp - 官方模板](https://github.com/dcloudio/uni-preset-vue) 
+[uniapp - 模板文档](https://uniapp.dcloud.net.cn/quickstart-cli.html) 
+[uni-ui](https://uniapp.dcloud.net.cn/component/uniui/uni-ui.html) 
+[Vue2](https://v2.cn.vuejs.org/v2/guide/) 
+[Vuex](https://v3.vuex.vuejs.org/zh/) 
+[Tailwindcss](https://www.tailwindcss.cn/docs) 
+[Tailwindcss支持小程序](https://blog.csdn.net/TIAN20121221/article/details/117301282?spm=1001.2014.3001.5502) 
 
 多平台条件编译
 vue2
