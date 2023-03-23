@@ -1,6 +1,9 @@
 import Vue from 'vue'
 import App from './App'
+/* 引入vuex */
+import store from './store'
 
+Vue.prototype.$store = store
 Vue.config.productionTip = false
 
 App.mpType = 'app'
@@ -29,6 +32,9 @@ uni.addInterceptor({
     });
   },
 });
+
+/* 引入tailwind.css */
+import './styles/tailwind.css'
 
 const app = new Vue({
   ...App
