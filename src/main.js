@@ -2,8 +2,11 @@ import Vue from 'vue'
 import App from './App'
 /* 引入vuex */
 import store from './store'
+/* 引入页面跳转 */
+import { $goto } from './utils/navigate'
 
 Vue.prototype.$store = store
+Vue.prototype.$goto = $goto
 Vue.config.productionTip = false
 
 App.mpType = 'app'
